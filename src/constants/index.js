@@ -137,7 +137,7 @@ import {
         name: "SmartanDad",
         designation: "Founder",
         company: "Smartan House",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        image: "",
     },
     {
         testimonial:
@@ -145,7 +145,7 @@ import {
         name: "Temitope Abere",
         designation: "Executive Director",
         company: "Smartan House",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        image: "",
     },
     {
         testimonial:
@@ -153,74 +153,116 @@ import {
         name: "Toluwalope",
         designation: "Creative Director",
         company: "Smartan House",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: "",
     },
     ];
 
-    const projects = [
-    {
-        name: "Car Rent",
-        description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-        {
-            name: "react",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "mongodb",
-            color: "green-text-gradient",
-        },
-        {
-            name: "tailwind",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-        {
-            name: "react",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "restapi",
-            color: "green-text-gradient",
-        },
-        {
-            name: "scss",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-        {
-            name: "nextjs",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "supabase",
-            color: "green-text-gradient",
-        },
-        {
-            name: "css",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+const projects = [
+  {
+    name: "Awwards-Stein",
+    description:
+      "An award-winning showcase website featuring cutting-edge animations and interactive experiences. Built with modern web technologies to deliver a premium, immersive user experience with smooth GSAP animations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=500&h=300&fit=crop",
+    source_code_link: "https://awward-stein.vercel.app/",
+  },
+  {
+    name: "Smartan House",
+    description:
+      "Official website for Smartan House - a dynamic platform showcasing youth leadership programs, summits, and initiatives across Nigeria. As the lead developer, I built a scalable, responsive solution that reflects the organization's mission.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=300&fit=crop",
+    source_code_link: "https://smartanhouse.org/",
+  },
+  {
+    name: "Smartan Incubation Program",
+    description:
+      "A comprehensive portal for the Smartan Builders Incubation Program, used by the Abia Leadership Program. Features program management, participant tracking, and interactive dashboards built with modern React technologies.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop",
+    source_code_link: "https://smartanbuildersportal.ct.ws/",
+  },
+  {
+    name: "AG Youth Rise",
+    description:
+      "A vibrant platform for AG Youth Rise Nigeria, empowering young people through information, resources, and community engagement. Built with responsive design principles and smooth interactions.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=500&h=300&fit=crop",
+    source_code_link: "https://agyouthriseng.org/",
+  },
+  {
+    name: "NAEAP Journal",
+    description:
+      "A professional journal platform built with TypeScript for enhanced type safety and maintainability. Features clean design, efficient content management, and optimized performance.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=500&h=300&fit=crop",
+    source_code_link: "https://naeap.net/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
